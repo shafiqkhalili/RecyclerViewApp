@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
     //Refresh Adapter
     override fun onResume() {
         super.onResume()
+        //Use on small data, to refresh whole data
+        //On large data, be specific on what is changed
         recyclerView.adapter?.notifyDataSetChanged()
     }
 }
