@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecycleView</string>
+    <string name="textName">Name</string>
+    <string name="textClassName">Class</string>
+    <string name="Save">Save</string>
+</resources>
