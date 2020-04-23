@@ -3,4 +3,5 @@
     <string name="textName">Name</string>
     <string name="textClassName">Class</string>
     <string name="Save">Save</string>
+    <string name="deleteButton">Delete</string>
 </resources>

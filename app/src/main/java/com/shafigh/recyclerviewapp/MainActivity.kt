@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = StudentsRecyclerAdapter(this,DataManager.students)
         
         val fab = findViewById<View>(R.id.floatingActionButton)
-        fab.setOnClickListener{ view ->
+        fab.setOnClickListener{
             //Change activity
             val intent = Intent(this,AddAndCreateStudentActivity::class.java)
             startActivity(intent)

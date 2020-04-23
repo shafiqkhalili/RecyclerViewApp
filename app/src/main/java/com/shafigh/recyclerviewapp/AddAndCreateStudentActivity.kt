@@ -36,7 +36,6 @@ class AddAndCreateStudentActivity : AppCompatActivity() {
             saveButton.setOnClickListener{
                 createNewStudent()
             }
-            editStudent(studentPosition)
         }/**/
     }
 

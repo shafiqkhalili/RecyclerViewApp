@@ -8,7 +8,7 @@ object DataManager {
     }
 
     fun createMockData(){
-        var student = Student("Shafigh", "MAP19")
+        var student = Student("Shafigh", "MAP19",true)
         students.add(student)
         student = Student("Alessio", "MAP19")
         students.add(student)
